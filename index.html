@@ -1,0 +1,25 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>YouTube Thumbnail Downloader</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Download YouTube video thumbnail in HD quality.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+    <h1>🎞️ YouTube Thumbnail Downloader</h1>
+    <input type="text" id="youtubeUrl" placeholder="Paste YouTube video link here">
+    <button onclick="getThumbnail()">Get Thumbnail</button>
+    <div id="result">
+      <img id="thumbnail" src="" alt="Thumbnail will appear here">
+      <a id="downloadBtn" href="#" download="thumbnail.jpg">Download Thumbnail</a>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
